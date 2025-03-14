@@ -1,0 +1,188 @@
+/* Styles for Meme-Based Learning website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6600;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+/* Categories Page Styling */
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.category {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.category:hover {
+    background-color: #cc5500;
+}
+/* Meme Submission Page Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, button {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
+/* Meme Gallery Styling */
+#memeGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.meme {
+    border: 2px solid #ff6600;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.meme img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* Voting Section Styling */
+.vote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.vote-section button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.vote-section button:hover {
+    background-color: #cc5500;
+}
+
+.vote-section span {
+    font-size: 18px;
+    margin: 0 10px;
+}
+/* Quiz Section Styling */
+#quiz {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quiz button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#quiz button:hover {
+    background-color: #cc5500;
+}
+/* Search Bar Styling */
+#searchBar {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#searchResults {
+    text-align: center;
+    margin-top: 10px;
+}

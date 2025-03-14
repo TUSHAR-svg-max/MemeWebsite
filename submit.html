@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Meme - Meme-Based Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="submit.html">Submit a Meme</a></li>
+        </ul>
+    </nav>
+
+    <h1>Submit Your Own Educational Meme</h1>
+
+    <form id="memeForm">
+        <label for="title">Meme Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="image">Upload Meme:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+
+        <button type="submit">Submit Meme</button>
+    </form>
+
+    <p id="message"></p>
+
+    <h2>Submitted Memes</h2>
+    <div id="memeGallery"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
